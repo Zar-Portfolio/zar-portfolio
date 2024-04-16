@@ -8,11 +8,20 @@ const Hero = () => {
         autoPlay
         muted
         loop
-        className="rotate-180 absolute top-[-400px] left-0 z-[1] w-full h-full object-cover"
+        className="rotate-180 absolute top-[-400px] left-0 z-[2] w-full h-full object-cover"
       >
         <source src="/blackhole.webm" type="video/webm" />
       </video>
       <HeroContent />
+
+      <video
+        autoPlay
+        muted
+        loop
+        className="absolute bottom-[40px] left-0 z-[1] w-full h-full object-cover"
+      >
+        <source src="/cards-video.webm" type="video/webm" />
+      </video>
     </div>
   );
 };
