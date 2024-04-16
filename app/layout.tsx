@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#030014] overflow-x-hidden`}>
+      <body className={`${inter.className} bg-[#030014] overflow-hidden`}>
         <Transition />
         <StarsCanvas />
         {children}
