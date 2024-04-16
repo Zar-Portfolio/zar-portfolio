@@ -3,7 +3,7 @@ import HeroContent from "../sub/HeroContent";
 
 const Hero = () => {
   return (
-    <div className="relative flex flex-col h-screen w-full bg-[#0b0119] -z-10">
+    <div className="relative flex flex-col h-screen w-full">
       <div className="absolute top-10 left-20">
         <p
           className="relative name-logo z-10 uppercase text-2xl lg:text-4xl font-bold 
@@ -20,7 +20,7 @@ const Hero = () => {
         autoPlay
         muted
         loop
-        className="absolute left-0 z-[1] h-full 2xl:w-full object-contain"
+        className="hidden lg:block absolute left-0 z-[1] h-full 2xl:w-full object-contain"
       >
         <source src="/cards-video.webm" type="video/webm" />
       </video>
