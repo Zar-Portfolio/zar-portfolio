@@ -9,6 +9,7 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroContent = () => {
   return (
@@ -51,12 +52,14 @@ const HeroContent = () => {
           <p className="mt-4">Check out my projects and skills.</p>
         </motion.div>
 
-        <motion.div
-          variants={slideInFromLeft(2)}
-          className="relative z-50 py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Explore Now
-        </motion.div>
+        <Link href={"/dashboard"}>
+          <motion.div
+            variants={slideInFromLeft(2)}
+            className="relative z-50 py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          >
+            Explore Now
+          </motion.div>
+        </Link>
       </div>
 
       <motion.div

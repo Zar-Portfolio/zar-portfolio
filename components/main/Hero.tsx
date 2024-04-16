@@ -1,5 +1,5 @@
 import React from "react";
-import HeroContent from "../sub/HeroContent";
+import HeroContent from "./HeroContent";
 
 const Hero = () => {
   return (
@@ -20,7 +20,7 @@ const Hero = () => {
         autoPlay
         muted
         loop
-        className="hidden lg:block absolute left-0 z-[1] h-full 2xl:w-full object-contain"
+        className="hidden lg:block absolute z-[1] h-full lg:w-full object-contain lg:object-cover"
       >
         <source src="/cards-video.webm" type="video/webm" />
       </video>
