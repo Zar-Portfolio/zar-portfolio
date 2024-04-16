@@ -17,7 +17,7 @@ const HeroContent = () => {
       animate="visible"
       className="h-screen flex flex-row items-center justify-center px-20 w-full z-[20]"
     >
-      <div className="h-full w-full flex flex-col gap-4 2xl:mt-0 2xl:gap-3 justify-center m-auto text-start">
+      <div className="h-full w-full flex flex-col gap-6 2xl:mt-0 2xl:gap-3 mt-28 2xl:justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[14px] border border-[#7042f88b] opacity-[0.9]"
@@ -30,7 +30,7 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(1.5)}
-          className="flex flex-col gap-6 mt-6 text-4xl 2xl:text-6xl font-bold text-white lg:max-w-[400px] 2xl:max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-2xl 2xl:text-6xl font-bold text-white lg:max-w-[400px] 2xl:max-w-[600px] w-auto h-auto"
         >
           <span>
             Providing
