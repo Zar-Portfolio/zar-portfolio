@@ -17,23 +17,23 @@ const page = () => {
         <motion.div
           initial="hidden"
           animate="visible"
-          className="relative z-10 h-full w-full flex items-center justify-between px-20 gap-4"
+          className="relative z-50 w-full flex flex-col lg:flex-row pt-64 pb-28 justify-between px-20 gap-4 overflow-x-hidden"
         >
           <motion.div
             variants={slideInFromRight(1.5)}
-            className="border-2 w-1/2 border-white"
+            className="glass-container w-full lg:w-1/2 h-full rounded-md"
           >
             <Profile />
           </motion.div>
           <motion.div
             variants={slideInFromRight(1.8)}
-            className="border-2 w-full border-white"
+            className="glass-container w-full h-full rounded-md"
           >
             asd
           </motion.div>
           <motion.div
             variants={slideInFromRight(2)}
-            className="border-2 w-1/6 border-white"
+            className="glass-container w-1/6 h-full rounded-md"
           >
             asd
           </motion.div>

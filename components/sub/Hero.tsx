@@ -22,7 +22,7 @@ const Hero = () => {
             >
               Zardron Pesquera
             </p>
-            <p className="relative z-10 text-[12px] font-bold tracking-[.34em] pb-1 lg:p-0 lg:tracking-[.56em] text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 uppercase">
+            <p className="relative z-10 text-[12px] font-bold tracking-[.18em] pb-1 lg:p-0 lg:tracking-[.56em] text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 uppercase">
               I turn coffee into code.
             </p>
           </div>
